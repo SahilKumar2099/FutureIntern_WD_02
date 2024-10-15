@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)) ,url(https://media.istockphoto.com/id/185215907/photo/big-planets-and-shining-stars-galaxy-in-space.jpg?s=612x612&w=0&k=20&c=TUgNudYwhKD6IEuR0ZR8QLTCeMSRIazDOS6kN54upb4=);
+        background-size: cover;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      nav{
+        width: 100%;
+        height: 100px;
+        color:#fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .logo{
+        font-size: 2em;
+        letter-spacing: 2px;
+      }
+      .menu a{
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        color: whitesmoke;
+      }
+      .register a{
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 20px;
+        color: whitesmoke;
+        background: indianred;
+        border-radius: 8px;
+      }
+      .H_text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        max-width: 650px;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: aliceblue;
+      }
+      .H_text span{
+        letter-spacing: 5px;
+      }
+      .H_text h1{
+        font-size: 3.5em;
+      }
+      .menu a:hover{
+        border: 1px solid rgba(226, 73, 219, 0.829);
+        background: transparent;
+      }
+      .register a:hover{
+        background: #9793938f;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <div class="logo">
+                SpaceWing
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">ContactUs</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="register">
+                <a href="#">Register</a>
+            </div>
+        </nav>
+        <section class="H_text">
+            <span>Explore</span>
+            <h1>Space Exploration</h1>
+        </section>
+    </header>
+  </body>
+</html>
